@@ -178,7 +178,7 @@ const hints = document.getElementById("hints");
 const confidence = document.getElementById("confidence");
 
 hints.innerHTML =
-	"Tap/click then say a color to change the background color of the app. Try " +
+	"Click the button, then say a color to change the background color of the app. Try " +
 	"Orange" +
 	".";
 
