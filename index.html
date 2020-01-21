@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Hello Bulma!</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css"
+		/>
+		<link rel="stylesheet" href="./index.css" />
+		<script
+			defer
+			src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+		></script>
+		<script
+			defer
+			src="./index.js"
+		></script>
+	</head>
+	<body>
+		<section class="section has-text-centered">
+			<div class="container">
+				<h1 class="title">
+					Speech API Test
+				</h1>
+				<p class="subtitle">
+					Works best in <strong>Chrome</strong>. This is an
+					experimental technology.
+				</p>
+				<p class="subtitle">
+					Say a color's name and change the color of this lovely circle.
+				</p>
+			</div>
+		</section>
+		<section class="section">
+			<div class="container">
+				<nav class="level">
+					<div class="level-item">
+						<button id="handler" class="button">Speak</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section">
+			<div class="container">
+				<nav class="level">
+					<div class="level-item">
+						<div id="target" class="background"></div>
+					</div>
+				</nav>
+			</div>
+			<div class="level">
+				<div class="level-item">
+					<p id="error" class="error"><em></em></p>
+				  </div>
+			</div>
+			<div class="level">
+				<div class="level-item">
+					<p id="hints" class="hints"><em></em></p>
+				  </div>
+			</div>
+			<div class="level">
+				<div class="level-item">
+					<p id="confidence" class="hints"><em></em></p>
+				  </div>
+			</div>
+		</section>
+	</body>
+</html>
