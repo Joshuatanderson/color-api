@@ -184,7 +184,7 @@ hints.innerHTML =
 
 recognition.onresult = function(event) {
 	const last = event.results.length - 1;
-	const color = event.results[last][0].transcript;
+	const color = event.results[last][0].transcript.toLowerCase();
 	console.log(color);
 	console.log(
 		`CSS color names includes result? ${CSS_COLOR_NAMES.includes(color)}`
